@@ -1,0 +1,33 @@
+sit@sit-OptiPlex-3280-AIO:~$ ls
+Desktop  Documents  Downloads  hello  hello.c  hw.txt  Music  Pictures  Public  snap  Templates  Videos
+sit@sit-OptiPlex-3280-AIO:~$ mkdir 1087_os
+sit@sit-OptiPlex-3280-AIO:~$ cd 1087
+bash: cd: 1087: No such file or directory
+sit@sit-OptiPlex-3280-AIO:~$ 
+sit@sit-OptiPlex-3280-AIO:~$ mkdir 1087_os
+mkdir: cannot create directory ‘1087_os’: File exists
+sit@sit-OptiPlex-3280-AIO:~$ cd 1087_os
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ vi exp.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ gcc exp.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ ./a.out
+Enter a year: 2026
+2026 is not a leap year.
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ vi exp2.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ gcc exp2.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ ./a.out
+Enter a year: 2026
+2026 is not a Leap Year.
+Do you want to check another year? (1 = Yes, 0 = No): 
+1
+Enter a year: 2026
+2026 is not a Leap Year.
+Do you want to check another year? (1 = Yes, 0 = No): 0
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ vi exp3.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ gcc exp3.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ ./a.out
+Enter a year: 2026
+2026 is not a Leap Year.
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ vi exp4.c
+sit@sit-OptiPlex-3280-AIO:~/1087_os$ 
+
+
